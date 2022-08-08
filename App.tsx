@@ -1,21 +1,11 @@
-import { Text, View, StyleSheet } from 'react-native' 
+import Home from "./src/screens/Home"
 export default function App(){
 
   return (
     <>
-      <View style={{flex:1, backgroundColor:"#000000"}}>
-        <Text style={styles.Texto} key="1">React</Text>
-        <Text style={styles.Texto}key="2">Native</Text>
-      </View>
+      <Home></Home>
     </>
   )
 
 
 }
-
-const styles = StyleSheet.create({
-  Texto: {
-    fontSize:15,
-    color:"white"
-  }
-});
