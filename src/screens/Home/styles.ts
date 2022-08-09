@@ -11,5 +11,16 @@ export const styles = StyleSheet.create({
       color: '#FFFFFF',
       padding:10,
       textAlign:"left"
+    },
+    buttonText:{
+      color: "#3d3f40",
+      textAlign:"center",
+    },
+    button:{
+      backgroundColor:"#e6edf0",
+      width:90,
+      marginLeft:"auto",
+      marginRight:"auto",
+      margin:10,
     }
 });

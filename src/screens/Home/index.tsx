@@ -1,7 +1,9 @@
-import { Text, TextInput, View} from 'react-native' 
+import { Text, TextInput, TouchableOpacity, View} from 'react-native' 
 import {styles} from './styles'
 export default function Home(){
-
+  function handleCadastrarUsuario(){
+    console.log('teste')
+  }
   return (
     <>
       <View style={{flex:1, backgroundColor:"#000000"}}>
@@ -13,7 +15,9 @@ export default function Home(){
           placeholderTextColor="#F0FF0F"
           keyboardType='default'
         />
-
+        <TouchableOpacity style={styles.button} onPress={handleCadastrarUsuario}> 
+          <Text style={styles.buttonText}>Clique aqui</Text>
+        </TouchableOpacity>
 
       </View>
     </>
